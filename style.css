@@ -17,11 +17,18 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     color: beige;
-    background-color: sienna;
+    background-color: rgb(102, 55, 31);
     width: 270px;
     height: auto;
     border-radius: 5px;
     text-align: start;
+}
+.recipe.ingredients:hover{
+    height: 200px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 12px;
+    transition: ease-in-out 0.3s;
 }
 .recipe-link:visited{
     color: bisque;
@@ -30,11 +37,55 @@ body {
     color: rgb(255, 239, 148);
     font-size:17px;
     font-style: italic;
+    transition: 0.25s ease-in-out;
+
 }
-.aziz{
+.home-button,
+.home-button:visited{
+    color: saddlebrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+.home-button:hover{
+    color: rgb(56, 41, 27);
+    font-size:17px;
+    font-style: italic;
+    transition: 0.25s ease-in-out;
+}
+.caption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration:underline;
+    color: rgb(68, 49, 35);
+}
+.ingredient{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration:underline;
+}
+.steps{
+    background-color: rgb(173, 144, 116);
+    border-radius: 5px;
+    text-align:left;
+    color:rgb(43, 37, 32);
+    font-size: 18px;
+    height: auto;
+    width: 800px;
+}
+.image{
     height: auto;
     width: 300px;
     border-radius: 20px;
     border-style:ridge;
     border-color: sienna;
+}
+.image:hover{
+    width: 310px;
+    height: auto;
+    transition: 0.25s ease-in-out;
+}
+p{
+    color:rgb(43, 37, 32);
+    font-size: 18px;
 }
